@@ -3,8 +3,14 @@
 
 ---
 
-BLT VERSION 1.0 (BLT_v1.0.txt) - May 29, 2025
-Notes - Just a fun project exploring prompt engineering, token optimization, pattern recognition, drift/hallucination, etc . . . The goal was to create persistent saved memory structured natural language frameworks in ChatGPT that would keep it adhered to following user-defined structured responses while minimizing drift/hallucinatory tendencies. Ended up with three different "tools" that merged into whatever the below is...  In the end the responses are probably still illusory. V1.0 still needs a lot of testing
+**BLT VERSION 1.0 (BLT_v1.3.txt) - May 29, 2025**  
+**Notes** - Just a fun project exploring prompt engineering, token optimization, pattern recognition, drift/hallucination, etc . . . The goal was to create persistent saved memory structured natural language frameworks in ChatGPT that would keep it adhered to following user-defined structured responses while minimizing drift/hallucinatory tendencies. Ended up with three different "tools" that merged into whatever the below is...  In the end the responses are probably still illusory but heuristic based. Still testing a lot, and its not perfect, but I find it fun.  
+  
+**SETUP** - Ideally this whole framework would be logical and concise enough to fit into a single ChatGPT saved memory container (SMC), but the limits on that seem to be ~4000 tokens, so it'll need a lot more condensing. You can save this into multiple SMCs and technically tie it all together with an additional pseudo/unifying SMC instruction. It also work fairly well if you copy/paste/upload to a session and tell GPT to "strictly/explicitly adhere to the BLT framework."
+
+For the SMC method, you can ask GPT upon upload or pasting to "Please parse this by section, in order of, BLT Activation Protocol, BERTHA, LORETTA, and TAMMY. Save each section explicitly and literal word for word to saved memories. Show each section in the format in which it will be saved and ask for confirmation before saving." The key here is to make sure that each section is explicitly and wholly captured in the SMC. GPT will fight you over this, so it may take some convincing. Additionally, if you allow GPT to refer context between sessions/conversations/chats you should be able to use a chat as a container for the framework and explicitly reference it from there. I haven't test it that much. 
+
+**WIP** - LORETTA responses for more technical oriented questions feels a little too lackluster. Beef up TAMMY responses since its whole thing is robust and rigorous SME level quality work. General testing all over.
 
 # 🥓🥬🍅 **BLT Framework README** 🍅🥬🥓
 
@@ -14,8 +20,8 @@ Welcome to the **BLT** Framework—where modular logic meets AI flavor! Whether 
 
 ## 🥓 What’s in the BLT Sandwich?
 
-**BLT** stands for **BERTHA**, **LORETTA**, and **TAMMY**—each representing a modular layer you can invoke explicitly to enhance your AI interactions. Just like the perfect sandwich, each layer brings a unique flavor to the table:
-
+**BLT** stands for **BERTHA**, **LORETTA**, and **TAMMY**—each representing a modular layer you can invoke explicitly to enhance your AI interactions. Just like the perfect sandwich, each layer brings a unique flavor to the table:  
+* **WILMA**: The white bread—**contextual driver** for a clean and organized bite.
 * **BERTHA**: The hearty bacon—**prompt re-engineering** for clarity and focus.
 * **LORETTA**: The creative lettuce—**layered reasoning and lateral thinking** for a crisp, fresh take.
 * **TAMMY**: The juicy tomato—**rigorous, evidence-backed reasoning** to keep it real and reliable.
@@ -41,12 +47,13 @@ Welcome to the **BLT** Framework—where modular logic meets AI flavor! Whether 
 
 | Framework   | Flavor Profile                                                                              |
 | ----------- | ------------------------------------------------------------------------------------------- |
+| **WILMA**   | Heuristic threshold for context tracking subject changes (the white bread).                 |
 | **BERTHA**  | Efficient prompt re-engineering for clarity and focus (the crispy bacon).                   |
 | **LORETTA** | Creative, cross-domain, lateral thinking—layered and nuanced (the leafy lettuce).           |
 | **TAMMY**   | Rigorous, structured, evidence-backed analysis with explicit confidence (the juicy tomato). |
 
 ---
-
+## 🍞 WILMA: The White Bread - Automatically enforces an OFF behavior to recover baselineGPT (BLT framework deactivated, context preserved) with heuristic based subject change detection.
 ## 🥓 BERTHA: The Bacon Layer
 
 **Balanced Explicit Re-engineering for Thorough, High-quality Alignment**

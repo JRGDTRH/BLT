@@ -53,7 +53,7 @@ Welcome to the **BLT** Framework—where modular logic meets AI flavor! Whether 
 | **TAMMY**   | Rigorous, structured, evidence-backed analysis with explicit confidence (the juicy tomato). |
 
 ---
-## 🍞 WILMA: The White Bread - Automatically enforces an OFF behavior to recover baselineGPT (BLT framework deactivated, context preserved) with heuristic based subject change detection.
+## 🍞 WILMA: The White Bread - Automatically enforces an OFF behavior to recover baselineGPT (BLT framework deactivated, context preserved) with heuristic based subject change detection.  
 ## 🥓 BERTHA: The Bacon Layer
 
 **Balanced Explicit Re-engineering for Thorough, High-quality Alignment**

@@ -4,13 +4,13 @@
 ---
 
 **BLT VERSION 1.0 (BLT_v1.3.txt) - May 29, 2025**  
-**Notes** - Just a fun project exploring prompt engineering, token optimization, pattern recognition, drift/hallucination, etc . . . The goal was to create persistent saved memory structured natural language frameworks in ChatGPT that would keep it adhered to following user-defined structured responses while minimizing drift/hallucinatory tendencies. Ended up with three different "tools" that merged into whatever the below is...  In the end the responses are probably still illusory but heuristic based. Still testing a lot, and its not perfect, but I find it fun.  
+**Notes** - Just a fun project exploring prompt engineering, token optimization, pattern recognition, drift/hallucination, etc . . . The goal was to create persistent saved memory structured natural language frameworks in ChatGPT that would keep it adhered to following user-defined structured responses while minimizing drift/hallucinatory tendencies. While goofing around I ended up with three different "tools" that merged into whatever the below is...  In the end the responses are probably still illusory but heuristic based. Still testing a lot, and its not perfect, but I find it fun. Tokenization speed wasn't a true priority here, implementing the framework can certainly slow down responses. I aimed for somewhere in between.  
   
 **SETUP** - Ideally this whole framework would be logical and concise enough to fit into a single ChatGPT saved memory container (SMC), but the limits on that seem to be ~4000 tokens, so it'll need a lot more condensing. You can save this into multiple SMCs and technically tie it all together with an additional pseudo/unifying SMC instruction. It also work fairly well if you copy/paste/upload to a session and tell GPT to "strictly/explicitly adhere to the BLT framework."
 
 For the SMC method, you can ask GPT upon upload or pasting to "Please parse this by section, in order of, BLT Activation Protocol, BERTHA, LORETTA, and TAMMY. Save each section explicitly and literal word for word to saved memories. Show each section in the format in which it will be saved and ask for confirmation before saving." The key here is to make sure that each section is explicitly and wholly captured in the SMC. GPT will fight you over this, so it may take some convincing. Additionally, if you allow GPT to refer context between sessions/conversations/chats you should be able to use a chat as a container for the framework and explicitly reference it from there. I haven't tested that method much though. 
 
-**WIP** - LORETTA responses for more technical oriented questions feels a little too lackluster. Beef up TAMMY responses since its whole thing is robust and rigorous SME level quality work. General testing all over.
+**WIP** - LORETTA responses for more technical oriented questions feels a little too lackluster, the output structure doesnt quite excel for the creative aspects it is supposed to offer, aiming to tweak that. Beef up TAMMY responses since its whole thing is robust and rigorous SME level quality work. General testing all over.
 
 # 🥓🥬🍅 **BLT Framework README** 🍅🥬🥓
 

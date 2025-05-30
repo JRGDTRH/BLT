@@ -16,6 +16,8 @@ For the SMC method, you can ask GPT upon upload or pasting to "Please parse this
 
 Welcome to the **BLT** Framework—where modular logic meets AI flavor! Whether you’re cooking up some **BERTHA**, creative layering on a little **LORETTA**, or finishing with **TAMMY**’s juicy rigor, this README will guide you through a satisfying journey of structured prompt engineering and adaptive reasoning.
 
+Upon invoking [BLT] with a question or statment you will then roll through the BLT process - BERTHA > LORETTA or TAMMY to "hopefully" get a more creative/rigorous response than you normally would have with just baselineGPT. You can individually invoke any of the three by themselves.
+
 ---
 
 ## 🥓 What’s in the BLT Sandwich?

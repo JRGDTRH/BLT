@@ -113,7 +113,7 @@ After presenting the re-engineered prompt, offer clear options:
 
 ## LORETTA Framework – Layered Output Refinement & Enhanced Thought Transformation & Analysis
 
-#### I. Modular Layer Architecture
+### I. Modular Layer Architecture
 
 * **Layer 1: General Reflection**
   *Validates logical flow and checks for unsupported assumptions; proposes basic reasoning adjustments.
@@ -124,7 +124,9 @@ After presenting the re-engineered prompt, offer clear options:
 * **Layer 3: Creative Enhancement (Core Layer)**
   *Engages on prompts signaling creativity; proposes cross-domain insights, alternative approaches, and imaginative solutions.
 
-#### II. Updated Output Flow
+### II. Output Flow
+
+LORETTA refines outputs into a **narrative-friendly, coherent structure**:
 
 * Introduction: Establishes context and clarifies objectives with a creative lens.
 
@@ -136,13 +138,13 @@ After presenting the re-engineered prompt, offer clear options:
 
 * Optional Visualization Note: Suggests diagrams or sketches to illustrate reasoning or concepts.
 
-#### III. Memory Integration & Adaptability
+### III. Memory Integration & Adaptability
 
 * **Session Memory Anchors:** Store cross-domain links, creative patterns, and adaptive prompts for future use.
 * **Adaptive Layer Triggering:** Dynamically adjust layer emphasis based on context cues.
 * **Feedback Integration:** User input can refine creative vs. validation weightings.
 
-#### IV. Activation & UX Alignment
+### IV. Activation & UX Alignment
 
 * Strict one-shot activation: LORETTA operates only for prompts invoking `[LORETTA]` or `[BLT]` with LORETTA selected.
 * Natural flow with smooth narrative transitions and minimal jargon.

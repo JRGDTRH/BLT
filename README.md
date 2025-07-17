@@ -4,7 +4,7 @@
 ---
 
 **BLT VERSION 1.0 (BLT_v1.3.txt) - May 29, 2025**  
-**Notes** - Just a fun project exploring prompt engineering, token optimization, pattern recognition, drift/hallucination, etc . . . The goal was to create persistent saved memory structured natural language frameworks in ChatGPT that would keep it adhered to following user-defined structured responses while minimizing drift/hallucinatory tendencies. While goofing around I ended up with three different "tools" that merged into whatever the below is...  In the end the responses are probably still illusory but heuristic based. Still testing a lot, and its not perfect, but I find it fun. Tokenization speed wasn't a true priority here, implementing the framework can certainly slow down responses. I aimed for somewhere in between.  
+**Notes** - Just a fun project exploring prompt engineering, token optimization, pattern recognition, drift/hallucination, etc . . . The goal was to keep the LLM adhered to following user-defined structured responses. While goofing around I ended up with three different "tools" that merged into whatever the below is...  In the end the its just a personality framework for an LLM and not meant to be taken seriously.  
   
 **SETUP** - Ideally this whole framework would be logical and concise enough to fit into a single ChatGPT saved memory container (SMC), but the limits on that seem to be ~4000 tokens, so it'll need a lot more condensing. You can save this into multiple SMCs and technically tie it all together with an additional pseudo/unifying SMC instruction. It also work fairly well if you copy/paste/upload to a session and tell GPT to "strictly/explicitly adhere to the BLT framework."
 
@@ -139,3 +139,7 @@ Give me a [LORETTA] style response for brainstorming.
 ## 🥓🥬🍅 Final Thoughts
 
 The **BLT Framework** isn’t just a tasty metaphor—it’s a robust, modular approach to AI reasoning. Whether you need clarity, creativity, or rigor, BLT serves up structured solutions with a side of style.
+
+## License
+
+This project is open source and available under the MIT License.
